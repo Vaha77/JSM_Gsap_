@@ -28,17 +28,26 @@
         <section>
           <h1>Your First Animation</h1>
           <p>
-            This is your first real GSAP animation, and it already shows what’s
-            possible with just a few lines of code.
+            This is My 
           </p>
           <p>
-            GSAP helps you create smooth, powerful animations that go beyond
-            what regular CSS offers. You can control timing, easing, and even
-            add logic for when and how things animate.
+           Vaxa Aynan shu Code shu animation gsap.to(".card", {
+opacity: 1,
+scale: 1,
+duration: 5,
+onaComplete: () => {
+    gsap.to('.card', {
+        y: -20,
+        repeat: -1,
+        yoyo: true,
+        duration: 1,
+    });
+}
+
+})
           </p>
           <p>
-            It’s fast, flexible, and trusted by companies like Apple, Google,
-            and Nike to build beautiful interactions. Read more on the
+            Rakhimov Vokhidjon
             <a href="https://gsap.com/docs/v3/"> Official GSAP docs</a>.
           </p>
         </section>
