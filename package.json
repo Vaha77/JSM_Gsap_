@@ -14,6 +14,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
     "gsap": "^3.14.2",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "understanding": "^1.0.0"
   }
 }
